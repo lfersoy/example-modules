@@ -1,0 +1,9 @@
+name: 'Example Module - Users API'
+type: module
+description: 'This module provides an Restful API for users management.'
+core: 8.x
+
+dependencies:
+  - serialization
+  - basic_auth
+  - rest

@@ -1,0 +1,4 @@
+name: 'Example Module - Users'
+type: module
+description: 'This module provides an users form.'
+core: 8.x

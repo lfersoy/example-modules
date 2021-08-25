@@ -1,0 +1,18 @@
+status: true
+dependencies:
+  module:
+    - serialization
+    - basic_auth
+    - rest
+id: users_api
+plugin_id: users_api
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie
+    - basic_auth

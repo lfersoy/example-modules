@@ -1,0 +1,7 @@
+example_module_users.form:
+  path: /example-module/form
+  defaults:
+    _title: 'Example module - Form'
+    _form: \Drupal\example_module_users\Form\ExampleModuleUserForm
+  requirements:
+    _permission: 'administer site configuration'
